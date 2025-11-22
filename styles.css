@@ -1,0 +1,60 @@
+body{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main_body{
+     width:50%;
+     height:85%;
+     background-color:black;
+     border-radius:25px;
+     display:flex;
+     flex-direction: column;
+     padding:2px;
+     
+}
+
+#screen{
+    margin:2px;
+    height: 40%;
+    background-color:rgb(59, 59, 60) ;
+    border-radius: 25px;
+}
+
+#keypad{
+   background-color:rgb(19, 22, 24);
+   height:60%;
+   border-radius:25px;
+   display:flex;
+   flex-direction:column;
+   gap:5px;
+}
+
+#row_1,#row_2,#row_3,#row_4,#operators {
+  display: flex;
+  gap:10px;
+  padding:10px;
+}
+
+#row_1 button,#row_2 button,#row_4 button,#row_3 button,#operators button{
+    flex:1;
+    padding:12px;
+    background-color: orange;
+    text-align: center;
+    font-size: 20px;
+    color:white;
+    border-radius:10px;
+}
+
+#row_4 button{
+   max-width:80px;
+   background-color: red;
+}
+
+#row_1 button,#row_2 button,#row_3 button{
+    background-color:rgb(140, 142, 144);
+}
+
+
